@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="CMS.Core.Domain.Models" assembly="CMS.Core">
+
+  <class name="Contract" table="v_Purchasing_Contracts_PO">
+
+    <!--<id name="Id">
+      --><!--<column name="Id" sql-type="uniqueidentifier" not-null="true"/>--><!--
+      <generator class="guid" />
+    </id>-->
+
+    <property name="ContractNum">
+      <column name="ContractNum" length="500" not-null="true" />
+    </property>
+    <property name="PO">
+      <column name="PO" length="50" />
+    </property>
+  </class>
+
+</hibernate-mapping>

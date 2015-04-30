@@ -1,0 +1,24 @@
+﻿@model CMS.Core.UI.ViewModels.Models.SignInView
+
+@{
+    ViewBag.Title = "SignInView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+
+<div id="signin" class="gredientdiv" style="padding:15px 15px 15px 15px; margin: 10px 0px 10px 0px;">
+    @using (Html.BeginForm())
+    {
+        <h2>Welcome to Contract Management System</h2>
+        <fieldset>
+            <p>@Html.ValidationSummary("", new { id = "error" })</p>
+            @Html.AntiForgeryToken()
+            <p>@Html.LabelFor(f => f.UserName, "Username: ")<br />@Html.TextBoxFor(f => f.UserName, new { @class = "tb required form-control" })</p>
+            <p> @Html.LabelFor(f => f.Password, "Password: ")<br />@Html.PasswordFor(f => f.Password, new { @class = "tb required form-control" })</p>
+            <p> <input type="submit" id="SubmitSearch" value="Sign In" class="btn btn-default" accesskey="s" /></p>
+        </fieldset>
+    }
+</div>
+<div class="clearfix"></div>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.MVC", "FindBallers\CMS.MVC.csproj", "{41C20313-2B20-422B-A07A-B42E37C0DA4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Tests", "FindBallers.Tests\CMS.Tests.csproj", "{BA540501-6E9B-4E5F-A8CA-7035B5EA8CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Core", "FindBallers.Core\CMS.Core.csproj", "{E98C4B36-A8F5-4515-A47B-97438E1836DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41C20313-2B20-422B-A07A-B42E37C0DA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C20313-2B20-422B-A07A-B42E37C0DA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C20313-2B20-422B-A07A-B42E37C0DA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C20313-2B20-422B-A07A-B42E37C0DA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA540501-6E9B-4E5F-A8CA-7035B5EA8CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA540501-6E9B-4E5F-A8CA-7035B5EA8CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA540501-6E9B-4E5F-A8CA-7035B5EA8CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA540501-6E9B-4E5F-A8CA-7035B5EA8CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98C4B36-A8F5-4515-A47B-97438E1836DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98C4B36-A8F5-4515-A47B-97438E1836DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98C4B36-A8F5-4515-A47B-97438E1836DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98C4B36-A8F5-4515-A47B-97438E1836DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

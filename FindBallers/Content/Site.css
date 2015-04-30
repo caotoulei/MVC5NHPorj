@@ -1,0 +1,36 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.logout{ right: 200px;  color: #ffffff;font-weight: bold; padding: 10px;position: fixed; float: right;right: 200px; border-radius: 0 0 5px 5px; background-position: bottom;}
+.logout:hover{ color: #ffffff;text-decoration: none;}
+.white{ color: #ffffff !important; }
+.cmsnavbar { height: 40px; background-color: #dff0d8; width: 100vw;}
+.cmsnavbar ul li a{ color: #000000;text-decoration: underline;}
+.cmsnavlink{ text-decoration: underline;font-weight: bold;height: 40px;}
+.cmsnavlink:hover{ background-color: transparent  !important; }
+.greenbtn{background-color: #5cb85c !important; border-color: #008000 !important;}
+.greenbtn:hover{background-color: #008000 !important; border-color: #008000 !important;}
+h2{ color: #87ceeb !important;}
+.welcome{position: fixed;top: 15px; float: right !important;right: 300px !important;}

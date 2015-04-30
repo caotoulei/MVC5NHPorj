@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="CMS.Core.Domain.Models" assembly="CMS.Core">
+
+  <class name="User" table="RegisteredUser">
+
+    <id name="Id">
+      <column name="ID" sql-type="uniqueidentifier" not-null="true"/>
+      <!--<generator class="guid" />-->
+    </id>
+
+    <property name="UserName" not-null="true"/>
+    <property name="DisplayName" not-null="true"/>
+    <property name="Email" not-null="true"/>
+    <property name="Contact"/>
+   
+   
+  </class>
+
+</hibernate-mapping>
